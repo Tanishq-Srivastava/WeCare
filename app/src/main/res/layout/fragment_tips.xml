@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsFragment"
+    android:background="@drawable/background1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tipsh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:text="Healthcare Tips...Aging Well"
+            android:textColor="#185a9d"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tips"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tipsh"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:text="Myth: Aging means declining health and/or disability. \n
+Fact: There are some diseases that become more common as we age. However, getting older does not automatically mean poor health or that you will be confined to a walker or wheelchair. Plenty of older adults enjoy vigorous health, often better than many younger people. Preventive measures like healthy eating, exercising, and managing stress can help reduce the risk of chronic disease or injuries later in life. \n\n\n
+
+Myth: Memory loss is an inevitable part of aging.\n
+Fact: As you age, you may eventually notice you don’t remember things as easily as in the past, or memories may start to take a little longer to retrieve. However, significant memory loss is not an inevitable result of aging. Brain training and learning new skills can be done at any age and there are many things you can do to keep your memory sharp. The sooner you start, the sooner you’ll reap the benefits.\n\n\n
+
+Myth: You can’t teach an old dog new tricks.\n
+Fact: One of the more damaging myths of aging is that after a certain age, you just won’t be able to try anything new or contribute to things anymore. The opposite is true. Middle aged and older adults are just as capable of learning new things and thriving in new environments, plus they have the wisdom that comes with life experience. If you believe in and have confidence in yourself, you are setting up a positive environment for change no matter what your age."
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
